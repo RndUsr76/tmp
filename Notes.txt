@@ -1,0 +1,11 @@
+Ta ett antal sklearn-classifiers   classifiers.append(...)
+
+Fixa X,y
+
+Träna alla  for classifier in classifiers: classifier.fit(X,y) med cross validation kfold
+
+Gör en df med predictions för alla classifiers
+
+Gör:
+1. Average blir slut-prediction
+2. Träna en xgboost eller nåt på predictions
